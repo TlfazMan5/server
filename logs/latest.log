@@ -1,10 +1,10 @@
-[11:07:17] [main/INFO]: Loading Minecraft 1.20.4 with Fabric Loader 0.16.14
-[11:07:17] [main/WARN]: Warnings were found!
+[21:39:35] [main/INFO]: Loading Minecraft 1.20.4 with Fabric Loader 0.16.14
+[21:39:36] [main/WARN]: Warnings were found!
  - Mod 'TPS Hud' (tpshud) 1.7.0+1.20.3 recommends version 4.0.0 or later of modmenu, which is missing!
 	 - You should install version 4.0.0 or later of modmenu for the optimal experience.
  - Mod 'TPS Hud' (tpshud) 1.7.0+1.20.3 recommends any version of yet-another-config-lib, which is missing!
 	 - You should install any version of yet-another-config-lib for the optimal experience.
-[11:07:17] [main/INFO]: Loading 95 mods:
+[21:39:36] [main/INFO]: Loading 95 mods:
 	- c2me 0.2.0+alpha.11.72
 	   |-- c2me-base 0.2.0+alpha.11.72
 	   |-- c2me-client-uncapvd 0.2.0+alpha.11.72
@@ -114,217 +114,114 @@
 	- spark 1.10.58
 	- tpshud 1.7.0+1.20.3
 	   \-- me_obsilabor_alert 1.0.8
-[11:07:18] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/servers/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[11:07:18] [main/INFO]: Compatibility level set to JAVA_16
-[11:07:18] [main/INFO]: Compatibility level set to JAVA_17
-[11:07:18] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[11:07:18] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
-[11:07:18] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[11:07:18] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[11:07:18] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[11:07:18] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[11:07:18] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[11:07:18] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[11:07:18] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
-[11:07:18] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[11:07:18] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[11:07:18] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[11:07:18] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[11:07:18] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[11:07:18] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[11:07:18] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[11:07:18] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[11:07:19] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
-[11:07:19] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[11:07:19] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
-[11:07:19] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[11:07:19] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
-[11:07:19] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
-[11:07:19] [main/WARN]: Mod 'c2me' attempted to override option 'mixin.world.player_chunk_tick', which doesn't exist, ignoring
-[11:07:19] [main/INFO]: Loaded configuration file for Lithium: 129 options available, 1 override(s) found
-[11:07:19] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
-[11:07:20] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
-[11:07:21] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[11:07:34] [main/INFO]: [ServerCore] Loaded V1.5.0+1.20.4!
-[11:07:34] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[11:07:35] [main/WARN]: Missing metadata in pack file/VanillaTweaks_d815585_UNZIP_ME.zip
-[11:07:38] [main/INFO]: Loaded 7 recipes
-[11:07:38] [main/INFO]: Loaded 1290 advancements
-[11:07:39] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.665 ms
-[11:07:39] [Server thread/INFO]: Starting background profiler...
-[11:07:40] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[11:07:40] [Server thread/INFO]: Loading properties
-[11:07:40] [Server thread/INFO]: Default game type: SURVIVAL
-[11:07:40] [Server thread/INFO]: Generating keypair
-[11:07:40] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:07:40] [Server thread/INFO]: Using epoll channel type
-[11:07:40] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11:07:40] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[11:07:40] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[11:07:40] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[11:07:40] [Server thread/INFO]: Preparing level "world"
-[11:07:40] [Server thread/INFO]: Enforcing safe world random access
-[11:07:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:07:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[11:07:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[11:07:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[11:07:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[11:07:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[11:07:49] [Server thread/INFO]: Preparing spawn area: 0%
-[11:07:49] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[11:07:50] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[11:07:50] [Worker-Main-1/INFO]: Preparing spawn area: 13%
-[11:07:51] [Worker-Main-1/INFO]: Preparing spawn area: 17%
-[11:07:51] [Worker-Main-1/INFO]: Preparing spawn area: 21%
-[11:07:52] [Worker-Main-1/INFO]: Preparing spawn area: 30%
-[11:07:52] [Worker-Main-1/INFO]: Preparing spawn area: 30%
-[11:07:53] [Worker-Main-1/INFO]: Preparing spawn area: 31%
-[11:07:53] [Worker-Main-1/INFO]: Preparing spawn area: 37%
-[11:07:54] [Worker-Main-1/INFO]: Preparing spawn area: 38%
-[11:07:54] [Worker-Main-1/INFO]: Preparing spawn area: 47%
-[11:07:55] [Server thread/INFO]: Time elapsed: 8239 ms
-[11:07:55] [Server thread/INFO]: Done (14.606s)! For help, type "help"
-[11:33:12] [Server thread/INFO]: soso[/[0:0:0:0:0:0:0:1%0]:50130] logged in with entity id 148 at (254.66728486395957, 81.0, 689.3731141982045)
-[11:33:12] [Server thread/INFO]: soso joined the game
-[11:33:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2918ms or 58 ticks behind
-[11:35:13] [Server thread/INFO]: [Not Secure] [Server] who are you
-[11:35:27] [Server thread/INFO]: soso lost connection: You logged in from another location
-[11:35:27] [Server thread/INFO]: soso left the game
-[11:35:27] [Server thread/WARN]: handleDisconnection() called twice
-[11:35:29] [Server thread/INFO]: soso[/[0:0:0:0:0:0:0:1%0]:47378] logged in with entity id 1012 at (254.66728486395957, 81.0, 689.3731141982045)
-[11:35:29] [Server thread/INFO]: soso joined the game
-[11:35:34] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[11:35:34] [Server thread/INFO]: [A[B<--[HERE]
-[11:35:42] [Server thread/INFO]: [Not Secure] [Server] who are you,soso?
-[11:37:06] [Server thread/INFO]: [Not Secure] [Server] I am the Darkness, I am the OverLord
-[11:37:18] [Server thread/INFO]: [Not Secure] [Server] come free me from my prison
-[11:38:08] [Server thread/INFO]: [Not Secure] [Server] If you free me I will give you Limitless Power
-[11:53:30] [Server thread/INFO]: soso was blown up by Creeper
-[11:54:21] [Server thread/INFO]: soso was blown up by Creeper
-[11:56:27] [Server thread/INFO]: soso lost connection: Disconnected
-[11:56:27] [Server thread/INFO]: soso left the game
-[12:35:31] [Server thread/INFO]: Tlfaz_Man[/[0:0:0:0:0:0:0:1%0]:59350] logged in with entity id 6653 at (-360.69999998807907, 165.0, 1086.699999988079)
-[12:35:32] [Server thread/INFO]: Tlfaz_Man joined the game
-[12:35:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2171ms or 43 ticks behind
-[12:36:04] [Server thread/INFO]: Kofta_Man[/[0:0:0:0:0:0:0:1%0]:40038] logged in with entity id 6996 at (259.30000001192093, 75.0, 679.9783026868109)
-[12:36:04] [Server thread/INFO]: Kofta_Man joined the game
-[12:36:15] [Server thread/INFO]: [Not Secure] <Tlfaz_Man> -400 1100
-[12:36:33] [Server thread/INFO]: [Not Secure] <Kofta_Man> tt
-[12:36:41] [Server thread/INFO]: [Not Secure] <Kofta_Man> ttt
-[12:36:44] [Server thread/INFO]: [Not Secure] <Kofta_Man> tttttt
-[12:36:52] [Server thread/INFO]: [Not Secure] <Kofta_Man> tttt
-[12:37:16] [Server thread/INFO]: [Not Secure] <Kofta_Man> tttt
-[12:38:36] [Server thread/INFO]: Tlfaz_Man lost connection: Disconnected
-[12:38:36] [Server thread/INFO]: Tlfaz_Man left the game
-[12:41:39] [Server thread/INFO]: Tlfaz_Man[/[0:0:0:0:0:0:0:1%0]:59680] logged in with entity id 9465 at (-360.90793930608066, 165.0, 1083.718857791901)
-[12:41:39] [Server thread/INFO]: Tlfaz_Man joined the game
-[12:47:42] [Server thread/INFO]: [Not Secure] <Kofta_Man> ففففف
-[12:47:44] [Server thread/INFO]: [Not Secure] <Kofta_Man> ففففف
-[12:47:44] [Server thread/INFO]: soso[/[0:0:0:0:0:0:0:1%0]:41802] logged in with entity id 10416 at (259.4990788643419, 75.0, 697.6999999880791)
-[12:47:44] [Server thread/INFO]: soso joined the game
-[12:50:21] [Server thread/INFO]: Kofta_Man lost connection: Timed out
-[12:50:21] [Server thread/INFO]: Kofta_Man left the game
-[12:50:21] [Server thread/WARN]: handleDisconnection() called twice
-[12:51:17] [Server thread/INFO]: [Not Secure] <Tlfaz_Man> soso
-[12:51:38] [Server thread/INFO]: Kofta_Man[/[0:0:0:0:0:0:0:1%0]:57638] logged in with entity id 12596 at (-351.30000001192093, 75.0, 1090.1858945329002)
-[12:51:38] [Server thread/INFO]: Kofta_Man joined the game
-[12:52:08] [Server thread/INFO]: Kofta_Man lost connection: Timed out
-[12:52:08] [Server thread/INFO]: Kofta_Man left the game
-[12:52:28] [Server thread/INFO]: Kofta_Man[/[0:0:0:0:0:0:0:1%0]:55884] logged in with entity id 13011 at (-349.70147703711535, 75.0625, 1090.4626083816006)
-[12:52:28] [Server thread/INFO]: Kofta_Man joined the game
-[12:52:57] [Server thread/INFO]: [Not Secure] <Kofta_Man> TT
-[12:52:58] [Server thread/INFO]: Kofta_Man lost connection: Timed out
-[12:52:58] [Server thread/INFO]: Kofta_Man left the game
-[12:53:15] [Server thread/INFO]: Kofta_Man[/[0:0:0:0:0:0:0:1%0]:33716] logged in with entity id 13315 at (-355.30000001192093, 77.87938688069798, 1089.4421080704788)
-[12:53:15] [Server thread/INFO]: Kofta_Man joined the game
-[12:53:45] [Server thread/INFO]: Kofta_Man lost connection: Timed out
-[12:53:45] [Server thread/INFO]: Kofta_Man left the game
-[12:54:12] [Server thread/INFO]: [Not Secure] <soso> t3alo 3ndyyy
-[12:54:24] [Server thread/INFO]: Kofta_Man[/[0:0:0:0:0:0:0:1%0]:55206] logged in with entity id 13612 at (-355.30000001192093, 63.325245717823, 1089.4421080704788)
-[12:54:24] [Server thread/INFO]: Kofta_Man joined the game
-[12:54:37] [Server thread/INFO]: [Not Secure] <Kofta_Man> TTT
-[12:54:38] [Server thread/INFO]: [Not Secure] <Kofta_Man> TT
-[12:54:39] [Server thread/INFO]: [Not Secure] <Kofta_Man> TTT
-[12:54:47] [Server thread/INFO]: [Not Secure] <Kofta_Man> TT
-[12:55:14] [Server thread/INFO]: [Not Secure] <soso> aho fataht al chattt
-[12:55:25] [Server thread/INFO]: [Not Secure] <soso> t3ala 3ndyy
-[12:55:31] [Server thread/INFO]: [Not Secure] <Tlfaz_Man> t3ala enta
-[12:55:36] [Server thread/INFO]: [Not Secure] <Kofta_Man> SOSO
-[12:55:54] [Server thread/INFO]: Kofta_Man lost connection: Timed out
-[12:55:54] [Server thread/INFO]: Kofta_Man left the game
-[12:55:55] [Server thread/INFO]: [Not Secure] <soso> m4 ha3rf
-[12:56:02] [Server thread/INFO]: [Not Secure] <Tlfaz_Man> tb estna
-[12:56:27] [Server thread/INFO]: [Not Secure] <soso> kk
-[12:56:53] [Server thread/INFO]: Kofta_Man[/[0:0:0:0:0:0:0:1%0]:59870] logged in with entity id 14677 at (-352.94966728573, 87.0, 1092.019909495891)
-[12:56:53] [Server thread/INFO]: Kofta_Man joined the game
-[12:57:23] [Server thread/INFO]: Kofta_Man lost connection: Timed out
-[12:57:23] [Server thread/INFO]: Kofta_Man left the game
-[12:57:46] [Server thread/INFO]: com.mojang.authlib.GameProfile@4218481d[id=525957fd-abd9-3289-9c7a-18321c92d423,name=Kofta_Man,properties={}] lost connection: Disconnected
-[13:00:59] [Server thread/INFO]: soso has made the advancement [Isn't It Iron Pick]
-[13:04:05] [Server thread/INFO]: Kofta_Man[/[0:0:0:0:0:0:0:1%0]:60348] logged in with entity id 17638 at (-352.94966728573, 87.0, 1092.019909495891)
-[13:04:05] [Server thread/INFO]: Kofta_Man joined the game
-[13:04:57] [Server thread/INFO]: [Not Secure] <Kofta_Man> TTTT
-[13:04:59] [Server thread/INFO]: [Not Secure] <Kofta_Man> TT\
-[13:15:32] [Server thread/INFO]: soso was shot by Skeleton
-[13:15:40] [Server thread/INFO]: [Not Secure] <Kofta_Man> SOSOOOOO
-[13:16:25] [Server thread/INFO]: [Not Secure] <soso> t3ala ya yahyaaaa mawtholyy
-[13:16:41] [Server thread/INFO]: [Not Secure] <Kofta_Man> hantkmlk ya soso
-[13:17:24] [Server thread/INFO]: soso was shot by Skeleton
-[13:17:35] [Server thread/INFO]: [Not Secure] <Kofta_Man> wwwwwwww
-[13:17:37] [Server thread/INFO]: [Not Secure] <Kofta_Man> wwdz
-[13:17:37] [Server thread/INFO]: [Not Secure] <Kofta_Man> Dsds
-[13:17:37] [Server thread/INFO]: [Not Secure] <Kofta_Man> d
-[13:17:39] [Server thread/INFO]: [Not Secure] <Kofta_Man> SsSSss
-[13:17:51] [Server thread/INFO]: Kofta_Man lost connection: Timed out
-[13:17:51] [Server thread/INFO]: Kofta_Man left the game
-[13:18:03] [Server thread/INFO]: soso was slain by Skeleton
-[13:18:34] [Server thread/INFO]: Kofta_Man[/[0:0:0:0:0:0:0:1%0]:44054] logged in with entity id 25610 at (-353.5, 165.0, 1088.5)
-[13:18:34] [Server thread/INFO]: Kofta_Man joined the game
-[13:19:02] [Server thread/INFO]: soso was slain by Skeleton
-[13:19:30] [Server thread/INFO]: [Not Secure] <soso> A7AA
-[13:19:44] [Server thread/WARN]: Kofta_Man moved too quickly! -8.337739882110156,-2.0748002124366423,-15.682822882248274
-[13:19:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3335ms or 66 ticks behind
-[13:19:44] [Server thread/INFO]: [Not Secure] <Kofta_Man> ana gy
-[13:19:57] [Server thread/INFO]: [Not Secure] <soso> SKELATON MASK SEEEEEF
-[13:20:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[13:20:27] [Server thread/INFO]: [Not Secure] <soso> T3ALA ALAAH YASTRK YABNY
-[13:21:30] [Server thread/INFO]: soso was slain by Skeleton
-[13:21:35] [Server thread/INFO]: Tlfaz_Man lost connection: Disconnected
-[13:21:35] [Server thread/INFO]: Tlfaz_Man left the game
-[13:21:45] [Server thread/INFO]: [Not Secure] <Kofta_Man> soso
-[13:21:48] [Server thread/INFO]: [Not Secure] <Kofta_Man> ant feen
-[13:21:55] [Server thread/INFO]: [Not Secure] <soso> BETK
-[13:22:08] [Server thread/INFO]: [Not Secure] <Kofta_Man> t3ala
-[13:22:33] [Server thread/INFO]: Tlfaz_Man[/[0:0:0:0:0:0:0:1%0]:32784] logged in with entity id 32166 at (-375.6772598689517, 64.5, 1071.1861828256535)
-[13:22:33] [Server thread/INFO]: Tlfaz_Man joined the game
-[13:22:36] [Server thread/INFO]: [Not Secure] <soso> T3ALA SANYAA
-[13:22:54] [Server thread/INFO]: [Not Secure] <Kofta_Man> hahaha
-[13:22:58] [Server thread/WARN]: Tlfaz_Man moved wrongly!
-[13:23:09] [Server thread/INFO]: [Not Secure] <soso> MAWT ABOOOH
-[13:23:27] [Server thread/INFO]: Tlfaz_Man lost connection: Disconnected
-[13:23:27] [Server thread/INFO]: Tlfaz_Man left the game
-[13:23:35] [Server thread/INFO]: [Not Secure] <Kofta_Man> TTTTT
-[13:24:14] [Server thread/INFO]: [Not Secure] <Kofta_Man> La gamd ya soso
-[13:24:30] [Server thread/INFO]: Tlfaz_Man[/[0:0:0:0:0:0:0:1%0]:46620] logged in with entity id 33209 at (-363.26955219250357, 190.0, 1090.4764118109395)
-[13:24:30] [Server thread/INFO]: Tlfaz_Man joined the game
-[13:24:34] [Server thread/WARN]: Kofta_Man moved too quickly! 16.35682365617305,-0.30515714456308274,-7.660091721112622
-[13:24:35] [Server thread/INFO]: Kofta_Man lost connection: Timed out
-[13:24:35] [Server thread/INFO]: Kofta_Man left the game
-[13:24:38] [Server thread/INFO]: [Not Secure] <soso> lsa m4 m3aya maward
-[13:27:18] [Server thread/WARN]: soso moved wrongly!
-[13:28:16] [Server thread/INFO]: Tlfaz_Man lost connection: Disconnected
-[13:28:16] [Server thread/INFO]: Tlfaz_Man left the game
-[13:30:17] [Server thread/INFO]: soso was slain by Zombie
-[13:30:23] [Server thread/INFO]: soso lost connection: Disconnected
-[13:30:23] [Server thread/INFO]: soso left the game
-[13:42:41] [Server thread/INFO]: Stopping the server
-[13:42:41] [Server thread/INFO]: Stopping server
-[13:42:41] [Server thread/INFO]: Saving players
-[13:42:41] [Server thread/INFO]: Saving worlds
-[13:42:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[13:42:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[13:42:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[13:42:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13:42:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13:42:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:42:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:39:37] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/server/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[21:39:37] [main/INFO]: Compatibility level set to JAVA_16
+[21:39:37] [main/INFO]: Compatibility level set to JAVA_17
+[21:39:38] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[21:39:38] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
+[21:39:38] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[21:39:38] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[21:39:38] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[21:39:38] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[21:39:38] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[21:39:38] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[21:39:38] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[21:39:38] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[21:39:38] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[21:39:38] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[21:39:38] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[21:39:38] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[21:39:38] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[21:39:38] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[21:39:38] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[21:39:38] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
+[21:39:38] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[21:39:38] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[21:39:38] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[21:39:38] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[21:39:38] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
+[21:39:38] [main/WARN]: Mod 'c2me' attempted to override option 'mixin.world.player_chunk_tick', which doesn't exist, ignoring
+[21:39:38] [main/INFO]: Loaded configuration file for Lithium: 129 options available, 1 override(s) found
+[21:39:39] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[21:39:40] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
+[21:39:41] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[21:40:00] [main/INFO]: [ServerCore] Loaded V1.5.0+1.20.4!
+[21:40:03] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:40:04] [main/WARN]: Missing metadata in pack file/VanillaTweaks_d815585_UNZIP_ME.zip
+[21:40:08] [main/INFO]: Loaded 7 recipes
+[21:40:09] [main/INFO]: Loaded 1290 advancements
+[21:40:09] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.667 ms
+[21:40:10] [Server thread/INFO]: Starting background profiler...
+[21:40:12] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[21:40:12] [Server thread/INFO]: Loading properties
+[21:40:12] [Server thread/INFO]: Default game type: SURVIVAL
+[21:40:12] [Server thread/INFO]: Generating keypair
+[21:40:12] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:40:12] [Server thread/INFO]: Using epoll channel type
+[21:40:12] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:40:12] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:40:12] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:40:12] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:40:12] [Server thread/INFO]: Preparing level "world"
+[21:40:12] [Server thread/INFO]: Enforcing safe world random access
+[21:40:20] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:40:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:40:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:40:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:40:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:40:22] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:40:23] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:40:23] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:40:23] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:40:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:40:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:40:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:40:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:40:26] [Worker-Main-1/INFO]: Preparing spawn area: 1%
+[21:40:26] [Worker-Main-1/INFO]: Preparing spawn area: 6%
+[21:40:27] [Worker-Main-1/INFO]: Preparing spawn area: 12%
+[21:40:27] [Worker-Main-1/INFO]: Preparing spawn area: 15%
+[21:40:28] [Worker-Main-1/INFO]: Preparing spawn area: 21%
+[21:40:28] [Worker-Main-1/INFO]: Preparing spawn area: 23%
+[21:40:29] [Worker-Main-1/INFO]: Preparing spawn area: 25%
+[21:40:29] [Worker-Main-1/INFO]: Preparing spawn area: 25%
+[21:40:30] [Worker-Main-1/INFO]: Preparing spawn area: 25%
+[21:40:30] [Worker-Main-1/INFO]: Preparing spawn area: 26%
+[21:40:31] [Server thread/INFO]: Time elapsed: 10846 ms
+[21:40:31] [Server thread/INFO]: Done (18.713s)! For help, type "help"
+[21:41:28] [Server thread/INFO]: Tlfaz_Man[/[0:0:0:0:0:0:0:1%0]:56054] logged in with entity id 145 at (327.5, 86.0, 830.5)
+[21:41:28] [Server thread/INFO]: Tlfaz_Man joined the game
+[21:41:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2215ms or 44 ticks behind
+[21:41:38] [Server thread/INFO]: Tlfaz_Man lost connection: Disconnected
+[21:41:38] [Server thread/INFO]: Tlfaz_Man left the game
+[21:43:28] [Server thread/INFO]: Tlfaz_Man[/[0:0:0:0:0:0:0:1%0]:39232] logged in with entity id 872 at (327.69832119510727, 86.0, 829.6490245631257)
+[21:43:28] [Server thread/INFO]: Tlfaz_Man joined the game
+[21:43:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[21:48:41] [Server thread/INFO]: Tlfaz_Man lost connection: Disconnected
+[21:48:41] [Server thread/INFO]: Tlfaz_Man left the game
+[21:48:45] [Server thread/INFO]: Tlfaz_Man[/[0:0:0:0:0:0:0:1%0]:36446] logged in with entity id 2282 at (334.2746503612843, 87.0, 829.5901799598748)
+[21:48:45] [Server thread/INFO]: Tlfaz_Man joined the game
+[21:49:00] [Server thread/INFO]: Tlfaz_Man lost connection: Disconnected
+[21:49:00] [Server thread/INFO]: Tlfaz_Man left the game
+[21:50:18] [Server thread/INFO]: Tlfaz_Man[/[0:0:0:0:0:0:0:1%0]:45702] logged in with entity id 3063 at (329.8542333575796, 87.0, 830.2748384601827)
+[21:50:18] [Server thread/INFO]: Tlfaz_Man joined the game
+[21:59:09] [Server thread/WARN]: Tlfaz_Man moved wrongly!
+[22:00:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=108, y=61, z=188} class_2338{x=109, y=59, z=187}
+[22:01:41] [Server thread/INFO]: [Tlfaz_Man: Set own game mode to Creative Mode]
+[22:01:42] [Server thread/INFO]: [Tlfaz_Man: Set own game mode to Survival Mode]
+[22:03:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2444ms or 48 ticks behind
+[22:05:00] [Server thread/INFO]: [Not Secure] <Tlfaz_Man> -50 130
+[22:06:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2543ms or 50 ticks behind
+[22:17:11] [Server thread/INFO]: Tlfaz_Man lost connection: Disconnected
+[22:17:11] [Server thread/INFO]: Tlfaz_Man left the game
+[22:17:19] [Server thread/INFO]: Stopping the server
+[22:17:20] [Server thread/INFO]: Stopping server
+[22:17:20] [Server thread/INFO]: Saving players
+[22:17:20] [Server thread/INFO]: Saving worlds
+[22:17:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:17:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22:17:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22:17:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:17:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:17:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:17:21] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
